@@ -21,21 +21,41 @@ Calculus Tool - это программа для математических в
 
 ## Установка
 1. Склонируйте репозиторий
-- git clone https://github.com/annyaann/calculus_tool.git
+```
+git clone https://github.com/annyaann/calculus_tool.git
+```
 2. Перейдите в папку репозитория
-- cd calculus_tool
+```
+cd calculus_tool
+```
 3. Создайте виртуальное окружение
-- python -m venv calculus_venv #Windows
-- python3 -m venv calculus_venv #MacOs
+Windows:
+```
+python -m venv calculus_venv 
+```
+MacOs:
+```
+- python3 -m venv calculus_venv 
+```
 4. Активируйте виртуальное окружение
-- calculus_venv\Scripts\activate #Windows#MacOs
-- source calculus_venv/bin/activate #MacOs
+Windows:
+```
+calculus_venv\Scripts\activate 
+```
+MacOs
+```
+source calculus_venv/bin/activate 
+```
 5. Установите библиотеки из файла requirements.txt
-- pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 ## Запуск
 Для запуска программы введите:
-- python main.py
+```
+python main.py
+```
 
 Пример работы:
 
@@ -56,9 +76,9 @@ Calculus Tool - это программа для математических в
 ```
 
 ## Структура 
-- **calculus_tool/** - корневая папка проекта
+- **calculus_tool/** - главная папка проекта
   - **calculus_core.py** - основной модуль с математическими функциями
-  - **main.py** - главный файл для запуска программы
+  - **main.py** - главный файл для запуска программы с пользовательским интерфейсом
   - **README.md** - документация проекта 
   - **requirements.txt** - список зависимостей
   - **.gitignore** - игнорируемые файлы
