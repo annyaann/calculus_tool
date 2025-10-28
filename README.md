@@ -35,7 +35,7 @@ python -m venv calculus_venv
 ```
 MacOs:
 ```
-- python3 -m venv calculus_venv 
+python3 -m venv calculus_venv 
 ```
 4. Активируйте виртуальное окружение
 Windows:
