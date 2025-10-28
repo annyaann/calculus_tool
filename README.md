@@ -25,11 +25,13 @@ Calculus Tool - это программа для математических в
 2. Перейдите в папку репозитория
 - cd calculus_tool
 3. Создайте виртуальное окружение
-- python -m venv calculus_venv
+- python -m venv calculus_venv #Windows
+- python3 -m venv calculus_venv #MacOs
 4. Активируйте виртуальное окружение
-- calculus_venv\Scripts\activate
-5. Установите библиотеку Sympy
-- pip install sympy
+- calculus_venv\Scripts\activate #Windows#MacOs
+- source calculus_venv/bin/activate #MacOs
+5. Установите библиотеки из файла requirements.txt
+- pip install -r requirements.txt
 
 ## Запуск
 Для запуска программы введите:
@@ -37,7 +39,7 @@ Calculus Tool - это программа для математических в
 
 Пример работы:
 
-```bash
+```
 Выберите действие
 1. Вычисление производной
 2. Решение уравнения

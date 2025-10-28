@@ -90,7 +90,7 @@ while True:
 
 
     elif a == '3':
-
+        print('Введите уравнения в формате 2*x + y - 5, x - y - 1')
         while True:
             equations = input('Введите уравнения через запятую: ')
             if not equations:
