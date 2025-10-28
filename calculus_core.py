@@ -65,6 +65,16 @@ def equation(equation: str, variable: str):
         return 'Ошибка, проверьте ввод'
 
 def system_of_equations(equations: str, variables: str) -> str:
+    """
+    Решение системы алгебраических уравнений.
+    
+    Параметры:
+        equation: уравнения в виде строки "2*x + y - 5, x - y - 1" через запятую
+        variable: переменные для решения через запятую
+    
+    Возвращает:
+        Строковое представление решения или сообщение об ошибке.
+    """
     try:
         vars = symbols(variables)
 
