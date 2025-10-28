@@ -42,7 +42,7 @@ Windows:
 ```
 calculus_venv\Scripts\activate 
 ```
-MacOs
+MacOs:
 ```
 source calculus_venv/bin/activate 
 ```
