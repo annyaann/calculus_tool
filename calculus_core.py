@@ -52,7 +52,7 @@ def equation(equation: str, variable: str):
         Строковое представление решения или сообщение об ошибке.
     """
     try:
-        var = symbols(variable)
+        var = variable
         eq = equation
        
         r = solveset(eq, var)
@@ -76,7 +76,7 @@ def system_of_equations(equations: str, variables: str) -> str:
         Строковое представление решения или сообщение об ошибке.
     """
     try:
-        vars = symbols(variables)
+        vars = variables
 
         eq_sp = []
 
