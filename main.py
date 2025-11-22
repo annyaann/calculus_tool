@@ -189,7 +189,6 @@ while True:
     while True:
         cont = input('Хотите продолжить вычисления? (да/нет): ').lower()
         if cont == 'нет' or cont == 'ytn':
-            print('Вы вышли из программы')
-            exit()  
+            print('Вы вышли из программы')  
         elif cont == 'да' or cont == 'lf':
             break

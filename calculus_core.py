@@ -77,7 +77,7 @@ def system_of_equations(equations: str, variables: str) -> str:
     """
     try:
         vars = variables
-
+        
         eq_sp = []
 
         eq = equations.split(',')
@@ -154,6 +154,6 @@ def transpose_matrix(matrix: str)-> str:
         m = Matrix(matrix_expr)
         r = m.T
         return str(r)
-        
+    
     except:
         return 'Ошибка: проверьте ввод'
